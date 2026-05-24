@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+buildServer.json
+.compile
+*.xcresult
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+xcuserdata/
+
+# Local editor state
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json

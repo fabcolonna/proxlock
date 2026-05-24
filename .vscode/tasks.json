@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ProxLock: Build",
+      "type": "shell",
+      "command": "make build",
+      "group": "build",
+      "problemMatcher": "$swiftc"
+    },
+    {
+      "label": "ProxLock: Check",
+      "type": "shell",
+      "command": "make check",
+      "group": "test",
+      "problemMatcher": "$swiftc"
+    },
+    {
+      "label": "ProxLock: Format",
+      "type": "shell",
+      "command": "make format",
+      "problemMatcher": []
+    },
+    {
+      "label": "ProxLock: Lint",
+      "type": "shell",
+      "command": "make lint",
+      "problemMatcher": []
+    },
+    {
+      "label": "ProxLock: Configure SourceKit-LSP",
+      "type": "shell",
+      "command": "make lsp-config",
+      "problemMatcher": []
+    }
+  ]
+}

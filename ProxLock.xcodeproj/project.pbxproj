@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5F191CB2B44D5ED00EF0A99 /* ProxLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F191CA2B44D5ED00EF0A99 /* ProxLock.swift */; };
+		E5F191CD2B44D5ED00EF0A99 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F191CC2B44D5ED00EF0A99 /* RootView.swift */; };
+		E5F191CF2B44D5EE00EF0A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F191CE2B44D5EE00EF0A99 /* Assets.xcassets */; };
+		E5F191D22B44D5EE00EF0A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F191D12B44D5EE00EF0A99 /* Preview Assets.xcassets */; };
+		E5F191E52B44DC2500EF0A99 /* PLSignalChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F191E42B44DC2500EF0A99 /* PLSignalChart.swift */; };
+		E5F191EA2B44DD9000EF0A99 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5F191E92B44DD9000EF0A99 /* Localizable.xcstrings */; };
+		E5F192062B4734C600EF0A99 /* PLEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192052B4734C600EF0A99 /* PLEngine.swift */; };
+		E5F1920B2B4760C000EF0A99 /* PLMonitorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F1920A2B4760C000EF0A99 /* PLMonitorPanel.swift */; };
+		E5F192102B4761E000EF0A99 /* PLHeaderPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F1920F2B4761E000EF0A99 /* PLHeaderPanel.swift */; };
+		E5F192122B4778D800EF0A99 /* PLWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192112B4778D800EF0A99 /* PLWelcomeView.swift */; };
+		E5F192142B49D53A00EF0A99 /* PLSettingsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192132B49D53A00EF0A99 /* PLSettingsPanel.swift */; };
+		E5F192162B49F69600EF0A99 /* PLDevicesPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192152B49F69600EF0A99 /* PLDevicesPanel.swift */; };
+		E5F192192B4AB8DD00EF0A99 /* PLEngineModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192182B4AB8DD00EF0A99 /* PLEngineModels.swift */; };
+		E5F1921B2B4AB8F500EF0A99 /* PLDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F1921A2B4AB8F500EF0A99 /* PLDevice.swift */; };
+		E5F1922A2B4C8E8900EF0A99 /* PLLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192292B4C8E8900EF0A99 /* PLLogger.swift */; };
+		E5F1922D2B4D4DB900EF0A99 /* PLMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F1922C2B4D4DB900EF0A99 /* PLMainView.swift */; };
+		E5F192312B4D548200EF0A99 /* PLErrorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192302B4D548200EF0A99 /* PLErrorPanel.swift */; };
+		E5F192332B4D709A00EF0A99 /* PLPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F192322B4D709A00EF0A99 /* PLPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5F191C72B44D5ED00EF0A99 /* ProxLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F191CA2B44D5ED00EF0A99 /* ProxLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxLock.swift; sourceTree = "<group>"; };
+		E5F191CC2B44D5ED00EF0A99 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E5F191CE2B44D5EE00EF0A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5F191D12B44D5EE00EF0A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5F191D32B44D5EE00EF0A99 /* ProxLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProxLock.entitlements; sourceTree = "<group>"; };
+		E5F191E42B44DC2500EF0A99 /* PLSignalChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLSignalChart.swift; sourceTree = "<group>"; };
+		E5F191E92B44DD9000EF0A99 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E5F192052B4734C600EF0A99 /* PLEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLEngine.swift; sourceTree = "<group>"; };
+		E5F1920A2B4760C000EF0A99 /* PLMonitorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMonitorPanel.swift; sourceTree = "<group>"; };
+		E5F1920F2B4761E000EF0A99 /* PLHeaderPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLHeaderPanel.swift; sourceTree = "<group>"; };
+		E5F192112B4778D800EF0A99 /* PLWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLWelcomeView.swift; sourceTree = "<group>"; };
+		E5F192132B49D53A00EF0A99 /* PLSettingsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLSettingsPanel.swift; sourceTree = "<group>"; };
+		E5F192152B49F69600EF0A99 /* PLDevicesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLDevicesPanel.swift; sourceTree = "<group>"; };
+		E5F192182B4AB8DD00EF0A99 /* PLEngineModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLEngineModels.swift; sourceTree = "<group>"; };
+		E5F1921A2B4AB8F500EF0A99 /* PLDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLDevice.swift; sourceTree = "<group>"; };
+		E5F1921E2B4B61A800EF0A99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5F1921F2B4B684C00EF0A99 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E5F192292B4C8E8900EF0A99 /* PLLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLLogger.swift; sourceTree = "<group>"; };
+		E5F1922C2B4D4DB900EF0A99 /* PLMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLMainView.swift; sourceTree = "<group>"; };
+		E5F192302B4D548200EF0A99 /* PLErrorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLErrorPanel.swift; sourceTree = "<group>"; };
+		E5F192322B4D709A00EF0A99 /* PLPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPanel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5F191C42B44D5ED00EF0A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5F191BE2B44D5ED00EF0A99 = {
+			isa = PBXGroup;
+			children = (
+				E5F1921F2B4B684C00EF0A99 /* LICENSE */,
+				E5F1921E2B4B61A800EF0A99 /* README.md */,
+				E5F191C92B44D5ED00EF0A99 /* ProxLock */,
+				E5F191C82B44D5ED00EF0A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5F191C82B44D5ED00EF0A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5F191C72B44D5ED00EF0A99 /* ProxLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5F191C92B44D5ED00EF0A99 /* ProxLock */ = {
+			isa = PBXGroup;
+			children = (
+				E5A000000000000000000001 /* App */,
+				E5F191F12B460F1100EF0A99 /* Engine */,
+				E5A000000000000000000002 /* Models */,
+				E5F191DF2B44DA7000EF0A99 /* UI */,
+				E5A000000000000000000003 /* Support */,
+				E5A000000000000000000006 /* Resources */,
+				E5F191CE2B44D5EE00EF0A99 /* Assets.xcassets */,
+				E5F191D32B44D5EE00EF0A99 /* ProxLock.entitlements */,
+				E5F191D02B44D5EE00EF0A99 /* Preview Content */,
+			);
+			path = ProxLock;
+			sourceTree = "<group>";
+		};
+		E5F191D02B44D5EE00EF0A99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5F191D12B44D5EE00EF0A99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5A000000000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E5F191CA2B44D5ED00EF0A99 /* ProxLock.swift */,
+				E5F191CC2B44D5ED00EF0A99 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E5A000000000000000000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5F1921A2B4AB8F500EF0A99 /* PLDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5A000000000000000000003 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E5F192292B4C8E8900EF0A99 /* PLLogger.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E5A000000000000000000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F191E92B44DD9000EF0A99 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5F191DF2B44DA7000EF0A99 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E5F1922F2B4D4DDB00EF0A99 /* Views */,
+				E5F1922E2B4D4DBF00EF0A99 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E5F191F12B460F1100EF0A99 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				E5F192052B4734C600EF0A99 /* PLEngine.swift */,
+				E5F192182B4AB8DD00EF0A99 /* PLEngineModels.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		E5F1922E2B4D4DBF00EF0A99 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E5F192322B4D709A00EF0A99 /* PLPanel.swift */,
+				E5F1920F2B4761E000EF0A99 /* PLHeaderPanel.swift */,
+				E5F1920A2B4760C000EF0A99 /* PLMonitorPanel.swift */,
+				E5F192302B4D548200EF0A99 /* PLErrorPanel.swift */,
+				E5F192152B49F69600EF0A99 /* PLDevicesPanel.swift */,
+				E5F192132B49D53A00EF0A99 /* PLSettingsPanel.swift */,
+				E5F191E42B44DC2500EF0A99 /* PLSignalChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E5F1922F2B4D4DDB00EF0A99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5F192112B4778D800EF0A99 /* PLWelcomeView.swift */,
+				E5F1922C2B4D4DB900EF0A99 /* PLMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5F191C62B44D5ED00EF0A99 /* ProxLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F191D62B44D5EE00EF0A99 /* Build configuration list for PBXNativeTarget "ProxLock" */;
+			buildPhases = (
+				E5F191C32B44D5ED00EF0A99 /* Sources */,
+				E5F191C42B44D5ED00EF0A99 /* Frameworks */,
+				E5F191C52B44D5ED00EF0A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxLock;
+			packageProductDependencies = (
+			);
+			productName = ProxLock;
+			productReference = E5F191C72B44D5ED00EF0A99 /* ProxLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5F191BF2B44D5ED00EF0A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E5F191C62B44D5ED00EF0A99 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = E5F191C22B44D5ED00EF0A99 /* Build configuration list for PBXProject "ProxLock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = E5F191BE2B44D5ED00EF0A99;
+			packageReferences = (
+			);
+			productRefGroup = E5F191C82B44D5ED00EF0A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5F191C62B44D5ED00EF0A99 /* ProxLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5F191C52B44D5ED00EF0A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F191D22B44D5EE00EF0A99 /* Preview Assets.xcassets in Resources */,
+				E5F191CF2B44D5EE00EF0A99 /* Assets.xcassets in Resources */,
+				E5F191EA2B44DD9000EF0A99 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5F191C32B44D5ED00EF0A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F1920B2B4760C000EF0A99 /* PLMonitorPanel.swift in Sources */,
+				E5F191CD2B44D5ED00EF0A99 /* RootView.swift in Sources */,
+				E5F192122B4778D800EF0A99 /* PLWelcomeView.swift in Sources */,
+				E5F192062B4734C600EF0A99 /* PLEngine.swift in Sources */,
+				E5F191E52B44DC2500EF0A99 /* PLSignalChart.swift in Sources */,
+				E5F1921B2B4AB8F500EF0A99 /* PLDevice.swift in Sources */,
+				E5F192192B4AB8DD00EF0A99 /* PLEngineModels.swift in Sources */,
+				E5F192102B4761E000EF0A99 /* PLHeaderPanel.swift in Sources */,
+				E5F1922D2B4D4DB900EF0A99 /* PLMainView.swift in Sources */,
+				E5F192312B4D548200EF0A99 /* PLErrorPanel.swift in Sources */,
+				E5F192162B49F69600EF0A99 /* PLDevicesPanel.swift in Sources */,
+				E5F192332B4D709A00EF0A99 /* PLPanel.swift in Sources */,
+				E5F1922A2B4C8E8900EF0A99 /* PLLogger.swift in Sources */,
+				E5F192142B49D53A00EF0A99 /* PLSettingsPanel.swift in Sources */,
+				E5F191CB2B44D5ED00EF0A99 /* ProxLock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5F191D42B44D5EE00EF0A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5F191D52B44D5EE00EF0A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E5F191D72B44D5EE00EF0A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProxLock/ProxLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ProxLock/Preview Content\"";
+				DEVELOPMENT_TEAM = 924V7SBV96;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ProxLock requires Bluetooth access in order to detect devices.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fcln.ProxLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E5F191D82B44D5EE00EF0A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProxLock/ProxLock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ProxLock/Preview Content\"";
+				DEVELOPMENT_TEAM = 924V7SBV96;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "ProxLock requires Bluetooth access in order to detect devices.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fcln.ProxLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5F191C22B44D5ED00EF0A99 /* Build configuration list for PBXProject "ProxLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F191D42B44D5EE00EF0A99 /* Debug */,
+				E5F191D52B44D5EE00EF0A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F191D62B44D5EE00EF0A99 /* Build configuration list for PBXNativeTarget "ProxLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F191D72B44D5EE00EF0A99 /* Debug */,
+				E5F191D82B44D5EE00EF0A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E5F191BF2B44D5ED00EF0A99 /* Project object */;
+}

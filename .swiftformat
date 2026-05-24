@@ -1,0 +1,18 @@
+--swiftversion 6.0
+--indent 4
+--linebreaks lf
+--maxwidth 120
+--semicolons never
+--commas inline
+--trimwhitespace always
+--allman false
+--self remove
+--patternlet inline
+--stripunusedargs closure-only
+--ifdef no-indent
+
+--exclude .git
+--exclude .vscode
+--exclude build
+--exclude DerivedData
+--exclude ProxLock.xcodeproj
